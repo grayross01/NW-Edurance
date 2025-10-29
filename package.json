@@ -1,0 +1,23 @@
+{
+  "name": "nw-edurance",
+  "version": "1.0.0",
+  "description": "Professional website for Scott Ludford, a professional triathlete and endurance coach serving athletes in the Pacific Northwest.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grayross01/NW-Edurance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grayross01/NW-Edurance/issues"
+  },
+  "homepage": "https://github.com/grayross01/NW-Edurance#readme",
+  "dependencies": {
+    "vercel": "^48.6.0"
+  }
+}
