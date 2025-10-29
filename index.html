@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NW Endurance — Blog</title>
+    <title>NW Endurance</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,9 @@
                 <h1>NW Endurance</h1>
             </div>
             <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#blog">Blog</a></li>
             </ul>
@@ -26,9 +29,118 @@
             </div>
         </div>
     </div>
-    
 
     <main style="padding-top: 90px;">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">Train Smarter. Race Stronger.</h1>
+                <p class="hero-subtitle">Personalized endurance coaching for runners who want sustainable, peak performance.</p>
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#contact">Start Coaching</a>
+                    <a class="btn btn-secondary" href="#about">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About NW Endurance</h2>
+                    <p class="section-subtitle">Evidence-led coaching tailored to your goals and lifestyle.</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>We build individualized training that fits your life, blends smart stress with adequate recovery, and focuses on long-term progress.</p>
+                        <p>Expect clear structure, frequent feedback, and a partnership that meets you where you are and takes you where you want to go.</p>
+                    </div>
+                    <div class="about-image">
+                        <img class="about-photo" src="images/hero-runner.jpg" alt="Runner training at sunrise">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy -->
+        <section class="philosophy" id="philosophy">
+            <div class="container philosophy-content">
+                <h2>Our Coaching Principles</h2>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card">
+                        <div class="icon">🏗️</div>
+                        <h3>Progressive Load</h3>
+                        <p>We build volume and intensity in measured phases to keep gains steady and resilient.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="icon">🧠</div>
+                        <h3>Evidence Led</h3>
+                        <p>Training decisions are guided by current research and proven best practices.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="icon">🛌</div>
+                        <h3>Recovery First</h3>
+                        <p>We balance stress with recovery to avoid burnout and unlock peak performance.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="icon">🤝</div>
+                        <h3>Coach + Athlete</h3>
+                        <p>Ongoing communication ensures the plan adapts to your life and feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">📅</div>
+                        <h3>Custom Plans</h3>
+                        <p>Tailored training blocks with precise workouts, paces, and recovery.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🧪</div>
+                        <h3>Data Review</h3>
+                        <p>Regular analysis of your sessions to refine future training.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🧭</div>
+                        <h3>Race Strategy</h3>
+                        <p>Pacing, fueling, and logistics so race day feels simple and strong.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💬</div>
+                        <h3>Coach Access</h3>
+                        <p>Consistent communication for accountability and quick adjustments.</p>
+                    </div>
+                </div>
+
+                <div class="coaching-highlight">
+                    <h3>Ready to start?</h3>
+                    <ul>
+                        <li>Onboarding consult to understand your goals</li>
+                        <li>Plan tailored to your schedule and history</li>
+                        <li>Ongoing feedback and adjustments</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img class="gallery-photo" src="images/gallery-1.jpg" alt="Trail running"></div>
+                    <div class="gallery-item"><img class="gallery-photo" src="images/gallery-2.jpg" alt="Track workout"></div>
+                    <div class="gallery-item"><img class="gallery-photo" src="images/gallery-3.jpg" alt="Race finish"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
         <section id="blog" class="blog-section">
             <div class="container">
                 <div class="section-head">
@@ -38,7 +150,7 @@
 
                 <div class="blog-grid">
                     <article class="post-card">
-                        <a class="post-media" href="#" aria-label="Read more: Periodizing Your Marathon Build">
+                        <a class="post-media" href="#">
                             <img src="https://images.unsplash.com/photo-1517963628607-235ccdd5476b?q=80&w=1200&auto=format&fit=crop" alt="Runner on track at sunrise">
                         </a>
                         <div class="post-content">
@@ -53,7 +165,7 @@
                     </article>
 
                     <article class="post-card">
-                        <a class="post-media" href="#" aria-label="Read more: Fueling Long Runs the Smart Way">
+                        <a class="post-media" href="#">
                             <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Nutrition and gels on table">
                         </a>
                         <div class="post-content">
@@ -68,7 +180,7 @@
                     </article>
 
                     <article class="post-card">
-                        <a class="post-media" href="#" aria-label="Read more: Strength Work for Endurance Athletes">
+                        <a class="post-media" href="#">
                             <img src="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=1200&auto=format&fit=crop" alt="Athlete lifting weights in gym">
                         </a>
                         <div class="post-content">
@@ -82,10 +194,47 @@
                         </div>
                     </article>
                 </div>
+            </div>
+        </section>
 
-                <div class="section-cta">
-                    <a class="button" href="#">View all posts</a>
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <div class="container contact-content">
+                <div class="contact-info">
+                    <h3>Contact</h3>
+                    <p>Tell us about your goals and timeline—let’s build a plan that fits your life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            <a href="mailto:hello@nwendurance.com">hello@nwendurance.com</a>
+                        </div>
+                    </div>
                 </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="goal">Primary Goal</label>
+                        <select id="goal" name="goal">
+                            <option value="">Select…</option>
+                            <option>Marathon PR</option>
+                            <option>First Half Marathon</option>
+                            <option>10K Speed</option>
+                            <option>General Fitness</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </form>
             </div>
         </section>
     </main>
@@ -99,6 +248,7 @@
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+    <script src="./script.js"></script>
 </body>
 </html>
 
