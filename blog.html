@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NW Endurance Blog — Tips for Endurance Athletes</title>
+    <meta name="description" content="Actionable training, fueling, recovery, and strength tips for endurance athletes from NW Endurance coaching.">
+    <link rel="canonical" href="https://nwendurance.com/blog">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "NW Endurance Blog",
+      "url": "https://nwendurance.com/blog",
+      "description": "Training, fueling, recovery and strength tips for endurance athletes."
+    }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>NW Endurance</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Open navigation" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <main style="padding-top: 90px;">
+        <section class="blog-section">
+            <div class="container">
+                <div class="section-head">
+                    <h1 class="section-title">NW Endurance Blog</h1>
+                    <p class="section-subtitle">Practical tips to help you train smarter and race stronger.</p>
+                </div>
+
+                <div class="blog-grid">
+                    <article class="post-card">
+                        <a class="post-media" href="#">
+                            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Gels and bottles for long-run fueling">
+                        </a>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-tag tag-green">Nutrition</span>
+                                <time datetime="2025-10-01">Oct 1, 2025</time>
+                            </div>
+                            <h2 class="post-title"><a href="#">Long-Run Fueling: Carbs, Fluids, Sodium</a></h2>
+                            <p class="post-excerpt">A simple, repeatable fueling framework so you finish long runs stronger and recover faster.</p>
+                            <a class="post-link" href="#">Read article</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <a class="post-media" href="#">
+                            <img src="https://images.unsplash.com/photo-1517963628607-235ccdd5476b?q=80&w=1200&auto=format&fit=crop" alt="Runner on track at sunrise">
+                        </a>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-tag">Training</span>
+                                <time datetime="2025-09-12">Sep 12, 2025</time>
+                            </div>
+                            <h2 class="post-title"><a href="#">Build Phases That Actually Peak You</a></h2>
+                            <p class="post-excerpt">How to stage base, threshold, and race-specific blocks without overreaching.</p>
+                            <a class="post-link" href="#">Read article</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <a class="post-media" href="#">
+                            <img src="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=1200&auto=format&fit=crop" alt="Athlete lifting in gym">
+                        </a>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-tag tag-purple">Strength</span>
+                                <time datetime="2025-08-22">Aug 22, 2025</time>
+                            </div>
+                            <h2 class="post-title"><a href="#">Two-Day Strength Template for Endurance</a></h2>
+                            <p class="post-excerpt">A minimal, high-return gym plan that supports running—not bodybuilding.</p>
+                            <a class="post-link" href="#">Read article</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> NW Endurance. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
